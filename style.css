@@ -135,6 +135,33 @@ p {
 .location-card {
   grid-column: 3/4;
   grid-row: 3;
+  padding: 30px;
+
+  gap: 10px;
+}
+.location-content {
+  display: flex;
+  gap: 10px;
+}
+.loc-btn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: #d7f25c;
+}
+.marker {
+  height: 25px;
+  object-fit: contain;
+}
+.location-content p {
+  line-height: 20px;
+  margin-top: 4px;
+  left: 60px;
+  color: #616365;
+  width: auto;
+  font-size: 12px;
+  font-weight: bold;
 }
 .green-image-card {
   grid-column: 5/6;
